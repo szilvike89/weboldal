@@ -10,6 +10,7 @@
     grid-gap: 20px 20px;
     grid-template-columns: 1.8fr 0.7fr;
     grid-template-rows: 0.4fr 0.4fr 3.3fr 0.4fr;
+    padding: 15px;
 }   
 .item1
 {
@@ -27,11 +28,12 @@
 {
     grid-area: main;
     background-color: rgb(113, 219, 122);
+    
 }
 .item4
 {
     grid-area: section;
-    background-color: rgb(14, 85, 14);
+    background-color: rgb(113, 219, 122);
 }
 .item5
 {
@@ -40,11 +42,27 @@
     opacity: 0.7;
     position: relative;
 }
-.item2 > div 
+.item2 
 {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    
+}
+.button
+{
+    border: none;
+    padding: 15px 32px;
+    font-size: 30px;
+    text-decoration: none;
+    float: left;
+    background-color: rgb(96, 212, 96);
+    opacity: 0.9;
+}
+.button:hover
+{
+    transition-duration: 0.4s;
+    border: 1px solid white;
 }
 h1
 {
@@ -56,4 +74,7 @@ a
 {
     text-decoration: none;
     font-size: small;
+    font-size: 16px;
+
 }
+
