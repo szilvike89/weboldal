@@ -3,9 +3,10 @@
     display: grid;
     grid-template-areas: 
     'header header header header'
+    'header header header header'
     'main main . section'
     'footer footer footer footer';
-    background-color: blue;
+    background-image: url(japan-bambo54to-forest1-2-e1467755640998.jpg);
     padding: 10px;
     grid-gap: 10px;
 }
@@ -13,6 +14,7 @@
 {
     grid-area: header;
     background-color: aqua;
+   
 }
 .item2
 {
@@ -35,4 +37,12 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+}
+
+.button:hover
+{
+    background-color: black;
+    color: green;
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px black ;
 }
