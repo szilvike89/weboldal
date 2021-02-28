@@ -2,47 +2,58 @@
 {
     display: grid;
     grid-template-areas: 
-    'header header header header'
-    'header header header header'
-    'main main . section'
-    'footer footer footer footer';
-    background-image: url(japan-bambo54to-forest1-2-e1467755640998.jpg);
-    padding: 10px;
-    grid-gap: 10px;
-}
+    'header header '
+    'menu .'
+    'main section'
+    'footer footer';
+    background-image: url(kepek/japan-bambo54to-forest1-2-e1467755640998.jpg);
+    grid-gap: 20px 20px;
+    grid-template-columns: 1.8fr 0.7fr;
+    grid-template-rows: 0.4fr 0.4fr 3.3fr 0.4fr;
+}   
 .item1
 {
     grid-area: header;
-    background-color: aqua;
-   
+    background-color: rgb(46, 124, 63);
+    opacity: 0.7;
+    position: relative;
 }
 .item2
 {
-    grid-area: main;
-    background-color: red;
+    grid-area: menu;
+    
 }
 .item3
 {
-    grid-area: section;
-    background-color: green;
+    grid-area: main;
+    background-color: rgb(113, 219, 122);
 }
 .item4
 {
-    grid-area: footer;
-    background-color: purple;
+    grid-area: section;
+    background-color: rgb(14, 85, 14);
 }
-.grid-container > div 
+.item5
 {
-   
+    grid-area: footer;
+    background-color: rgb(46, 124, 63);
+    opacity: 0.7;
+    position: relative;
+}
+.item2 > div 
+{
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
 }
-
-.button:hover
+h1
 {
-    background-color: black;
-    color: green;
-    transition-duration: 0.5s;
-    box-shadow: 2px 2px black ;
+    font-weight: bold;
+    font-style: italic;
+    font-variant-caps: petite-caps;
+}
+a
+{
+    text-decoration: none;
+    font-size: small;
 }
