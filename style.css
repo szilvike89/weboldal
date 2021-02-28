@@ -47,6 +47,7 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+    font-variant: small-caps;
     
 }
 .button
@@ -68,13 +69,14 @@ h1
 {
     font-weight: bold;
     font-style: italic;
-    font-variant-caps: petite-caps;
+    font-variant: small-caps;
 }
 a
 {
     text-decoration: none;
     font-size: small;
     font-size: 16px;
+    font-variant: small-caps;
 
 }
 li
@@ -84,6 +86,10 @@ li
     text-decoration: none;
 }
 h2
+{
+    font-variant: small-caps;
+}
+p
 {
     font-variant: small-caps;
 }
