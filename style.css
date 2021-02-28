@@ -11,13 +11,15 @@
     grid-template-columns: 1.8fr 0.7fr;
     grid-template-rows: 0.4fr 0.4fr 3.3fr 0.4fr;
     padding: 15px;
+    overflow: hidden;
+    
 }   
 .item1
 {
     grid-area: header;
     background-color: rgb(46, 124, 63);
     opacity: 0.7;
-    position: relative;
+    
 }
 .item2
 {
@@ -28,12 +30,16 @@
 {
     grid-area: main;
     background-color: rgb(113, 219, 122);
+   
+    
     
 }
 .item4
 {
     grid-area: section;
     background-color: rgb(113, 219, 122);
+    
+    
 }
 .item5
 {
@@ -92,4 +98,33 @@ h2
 p
 {
     font-variant: small-caps;
+}
+body
+{
+    box-sizing: border-box;
+}
+img
+{
+    width : 30%;
+    height : 15%;
+}
+@media only screen and (max-width: 600px)
+{
+    body{width: 100%;}
+}
+@media only screen and (min-width: 600px)
+{
+    body{width: 100%;}
+}
+@media only screen and (min-width: 768px)
+{
+    body{width: 100%;}
+}
+@media only screen and (min-width: 992px)
+{
+    body{width: 100%;}
+}
+@media only screen and (min-width: 1200px)
+{
+    body{width: 100%;}
 }
